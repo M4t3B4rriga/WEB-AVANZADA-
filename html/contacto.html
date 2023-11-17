@@ -4,20 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/menu.css">
+    <script src="../js/miscript.js" type="text/javaScript"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="back"></div>
 <nav>
-    <h1>MI PRESENTACION</h1>
+    <h1>CONTACTO</h1>
   <a href="../index.html">Inicio</a>
   <a href="sobre_mi.html">Sobre mi</a>
   <a href="habilidades.html">Habilidades</a>
   <a href="proyectos.html">Proyectos</a>
   <a href="contacto.html">Contacto</a>
 </nav>
+<div align="center" >
+    <div class="container3" id="presentacion" style="display:block;" >
+        <h2>Dejame tus datos para realizar proyectos</h2>
+        <div style="padding:1px 16px;height:300px; text-align: center;">
+            <form>
+                <!--creamos un fomrulario para los datos que tengamos en el-->
+                <form name="form">
+                    <fieldset>
+                        <legend>FORMULARIO</legend>
+                  <p>&nbsp;</p>
+                  <p>
+                    <label for="textfield">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre">
+                               
+                  </p>
+                  <p>
+                    <label for="correo">Correo:</label>
+                    <input type="email" name="correo" id="correo">
+                  </p>
+                </fieldset>
+                <p>&nbsp;</p>
+                <!--emviamos los datos para que nos mande una notificaion o un alert para que este nos muestre lo que ingresmos-->
+              <input type="button" name="button" id="button" value="enviar" onclick="enviar()">
+            </form>
+            </div>
+    </div>
+</div>
 <footer>
     <p>&copy; 2023 Mi Página | Desarrollado por [MATEO SEBASTIAN BARRIGA LLUMIQUINGA]</p>
+    
 </footer>
 </body>
 </html>
